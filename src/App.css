@@ -1,0 +1,72 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-form label,
+.order-form input,
+.order-form button {
+  margin-bottom: 10px;
+}
+
+.order-form label {
+  margin-right: 10px;
+}
+
+.order-form input[type="number"] {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.order-form .btn-add {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.order-form .btn-add:hover {
+  background-color: #45a049;
+}
+
+#list-product {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#list-product th,
+#list-product td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#list-product th {
+  background-color: #f2f2f2;
+}
+
+#list-product tfoot td {
+  font-weight: bold;
+}
+
+.btn-save {
+  display: block;
+  margin-top: 20px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  background-color: #006B8F;
+}
